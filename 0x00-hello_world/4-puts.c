@@ -1,10 +1,10 @@
 #include <stdio>
 /**
- *  main - A very special program thta depicts the puts function in a very special as shownin 
- *  Return: 0 (Excellent)
+ * main - A program that prints a line with puts function
+ * Return: 0 (Success)
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
