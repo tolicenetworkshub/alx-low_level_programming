@@ -18,12 +18,12 @@ int main(void)
 
 	int l_d2;
 
-	while (c <= 98)
+	while (c <= 99)
 	{
 		f_d = (c / 10 + '0');
 		l_d = (c % 10 + '0');
 		c2 = 0;
-		while (c2 <= 98)
+		while (c2 <= 99)
 		{
 			f_d2 = (c2 / 10 + '0');
 			l_d2 = (c2 % 10 + '0');
@@ -35,7 +35,7 @@ int main(void)
 				putchar(f_d2);
 				putchar(l_d2);
 
-				if (c != 98)
+				if (c != 99)
 				{
 					putchar(',');
 					putchar(' ');
