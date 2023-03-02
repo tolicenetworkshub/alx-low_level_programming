@@ -5,7 +5,7 @@
  * @str: The string to be captalized.
  * Return: a pointer to the changes string
  */
-char *cap_string(chair *str)
+char *cap_string(char *str)
 {
 	int index = 0;
 
