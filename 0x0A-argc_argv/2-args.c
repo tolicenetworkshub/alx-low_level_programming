@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
- * main - prints all arguments it receives
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - prints all arguments content
+ * @argc: argument count
+ * @argv: arguments vector
  *
  * Return: Always 0 (Success)
  */
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
